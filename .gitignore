@@ -1,0 +1,82 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+logs/
+target/*.log
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+*.iml
+.idea/
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+.springBeans
+
+# STS (Spring Tool Suite)
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+/target/
+!/target/classes/static/
+!/target/classes/templates/
+!/target/generated-sources/
+
+# Test reports
+/target/surefire-reports/
+/target/failsafe-reports/
+
+# Environment variables and sensitive data
+.env
+*.properties
+application*.properties
+application*.yml
+application*.yaml
+!application.properties # Keep the main application.properties if it's not sensitive
+!application-dev.properties # Keep dev properties if needed and not sensitive
+!application-test.properties # Keep test properties if needed and not sensitive
+
+# Local files
+*.bak
+*.swp
+*~
+*.tmp
+temp/
